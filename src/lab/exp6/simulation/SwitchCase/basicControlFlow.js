@@ -231,6 +231,7 @@ window.view = {
 	 		}
 	 	}
 		if ( model.inputNumber > 7 || model.inputNumber === 0)) {
+			
 	 		if (this.nextSiblingElement.id === 'holidayId')
 				this.codeExecutionWithColourAndId('elseIfId');
 	 		else if (this.nextSiblingElement.id === 'workingdayId') 
@@ -241,6 +242,7 @@ window.view = {
 	 		}
 	 	}
 	 	if (model.inputNumber === 7) || model.inputNumber === 6) {
+			
 	 		if (this.nextSiblingElement.id === 'holidayId') {
 				this.codeExecutionWithColour();
 				this.changeOpacity('holidayImage');
